@@ -29,7 +29,7 @@
       <RequiredItem identifier="radioactivecoilgunammobox" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
     </Fabricate>
     <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
-    <Sprite texture="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/RadioactiveCoilgunAmmo.png" depth="0.54" sourcerect="4,5,113,87" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/OddsAndEndsBecauseFuckMisc/RadioactiveCoilgunAmmo.png" depth="0.54" sourcerect="4,5,113,87" origin="0.5,0.5" />
     <Body width="115" height="88" density="50" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect"/>
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
@@ -96,7 +96,7 @@
       <RequiredItem identifier="piezopulselaserammobox" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
     </Fabricate>
     <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
-    <Sprite texture="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoLaserAmmo.png" depth="0.54" sourcerect="0,0,111,85" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/OddsAndEndsBecauseFuckMisc/PiezoLaserAmmo.png" depth="0.54" sourcerect="0,0,111,85" origin="0.5,0.5" />
     <Body width="115" height="88" density="50" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
     <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">

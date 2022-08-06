@@ -19,8 +19,8 @@
 	  <Item identifier="uranium" copycondition="true"/>
 	  <Item identifier="lead" copycondition="true"/>
     </Deconstruct>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/NeutronEmitter.png" sourcerect="2,1,43,36" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/NeutronEmitter.png" sourcerect="2,1,43,36" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/NeutronEmitter.png" sourcerect="2,1,43,36" />
+    <Sprite texture="%ModDir%/Items/Warheads/NeutronEmitter.png" sourcerect="2,1,43,36" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnBroken" target="This">
@@ -68,8 +68,8 @@
 	  <RequiredItem identifier="lead" />
 	  <RequiredItem identifier="lead" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,129,216,41" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,129,216,41" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,129,216,41" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,129,216,41" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0,0.5,0,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -154,8 +154,8 @@
 	  <RequiredItem identifier="lead" />
 	  <RequiredItem identifier="lead" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,87,216,38" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,87,216,38" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,87,216,38" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,87,216,38" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0.5,0.5,0.5,0.7" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -239,8 +239,8 @@
 	  <RequiredItem identifier="lead" />
 	  <RequiredItem identifier="lead" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="13,168,216,42" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="13,168,216,42" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="13,168,216,42" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="13,168,216,42" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0.75,0.5,0,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -324,8 +324,8 @@
 	  <RequiredItem identifier="lead" />
 	  <RequiredItem identifier="lead" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,50,216,39" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="12,50,216,39" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,50,216,39" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="12,50,216,39" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0.5,0.5,0,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -410,8 +410,8 @@
 	  <RequiredItem identifier="lead" />
 	  <RequiredItem identifier="lead" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="11,5,216,41" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" sourcerect="11,5,216,41" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="11,5,216,41" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/AssortedWMDs.png" sourcerect="11,5,216,41" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0.5,0,0,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -491,8 +491,8 @@
 	  <RequiredItem identifier="tin" />
 	  <RequiredItem identifier="plutonium" />
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/Warheads/PiezoEMP.png" sourcerect="5,4,216,37" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/Warheads/PiezoEMP.png" sourcerect="5,4,216,37" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Warheads/PiezoEMP.png" sourcerect="5,4,216,37" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Warheads/PiezoEMP.png" sourcerect="5,4,216,37" depth="0.55" origin="0.5,0.5" />
     <Body width="215" height="30" density="35" />
 	<LightComponent range="50" lightcolor="0,0,0.5,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>

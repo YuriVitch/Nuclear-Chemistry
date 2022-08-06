@@ -24,8 +24,8 @@
       <RequiredItem identifier="incendium" />
       <RequiredItem identifier="incendiumfuelrod" mincondition="0.0" usecondition="false"/>
     </Fabricate>
-    <InventoryIcon texture="Mods/NuclearChemistry/Items/CustomFuelRods/IncendiumRod.png" sourcerect="0,0,20,70" origin="0.5,0.5" />
-    <Sprite texture="Mods/NuclearChemistry/Items/CustomFuelRods/IncendiumRod.png" depth="0.55" sourcerect="0,0,20,70" />
+    <InventoryIcon texture="%ModDir%/Items/CustomFuelRods/IncendiumRod.png" sourcerect="0,0,20,70" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/CustomFuelRods/IncendiumRod.png" depth="0.55" sourcerect="0,0,20,70" />
     <Body radius="6" height="55" density="20" />
     <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" >
     </Holdable>

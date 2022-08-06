@@ -23,7 +23,7 @@
       <RequiredItem identifier="nucleargun" />
       <RequiredItem identifier="silicon" />
     </Fabricate>
-    <Sprite texture="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.png" sourcerect="28,41,245,69" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.png" sourcerect="28,41,245,69" depth="0.55" origin="0.5,0.5" />
     <Body width="238" height="63" density="70" />
 	<LightComponent range="50" lightcolor="0,0,0.5,0.25" powerconsumption="0" IsOn="true" Flicker="0.5" castshadows="true" allowingameediting="false">
 	  <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5,0.5"/>
@@ -31,7 +31,7 @@
     </LightComponent>
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="60,-15" aimpos="70,4" handle1="-50,-10" handle2="10,-3" holdangle="-25" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="Piezo Gun Worn" texture="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="28,41,245,69" limb="Torso" scale="0.5" origin="0.5,0.8" />
+      <sprite name="Piezo Gun Worn" texture="%ModDir%/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.png" canbehiddenbyotherwearables="false" rotation="90" inheritlimbdepth="false" depth="0.6" sourcerect="28,41,245,69" limb="Torso" scale="0.5" origin="0.5,0.8" />
     </Wearable>
     <RangedWeapon reload="0.1" barrelpos="118,14" spread="0" unskilledspread="10" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2" maxchargetime="0.25">
       <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
