@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="NuclearChemistry" path="Mods/NuclearChemistry/filelist.xml" corepackage="false" gameversion="0.15.22.1" steamworkshopid="2649880291" installtime="1638671184">
+  <Item file="Mods/NuclearChemistry/Items/CustomReactor/reactor.xml" />
+  <Item file="Mods/NuclearChemistry/Items/CustomFuelRods/CustomRods.xml" />
+  <Item file="Mods/NuclearChemistry/Items/CustomMaterials/CustomMaterials.xml" />
+  <Item file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.xml" />
+  <Item file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/DepletedFuelDivesuit.xml" />
+  <Item file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/NewAmmoTypes.xml" />
+  <Item file="Mods/NuclearChemistry/Items/Warheads/Warheads.xml" />
+  <None file="Mods/NuclearChemistry/Items/CustomFuelRods/IncendiumRod.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoGun.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/PiezoLaserAmmo.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/RadioactiveCoilgunAmmo.png" />
+  <None file="Mods/NuclearChemistry/Items/Warheads/AssortedWMDs.png" />
+  <None file="Mods/NuclearChemistry/Items/Warheads/NeutronEmitter.png" />
+  <None file="Mods/NuclearChemistry/Items/Warheads/PiezoEMP.png" />
+  <None file="Mods/NuclearChemistry/Items/CustomMaterials/Pu.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/DepletedDiveLocker.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/DepletedDivingSuit.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/DepletedDivingSuit_Item.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/DepletedHelmet.png" />
+  <None file="Mods/NuclearChemistry/Items/OddsAndEndsBecauseFuckMisc/icon.png" />
+</contentpackage>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+<Item name="Incendium Fuel Rod" identifier="incendiumfuelrod" description="A fuel rod that burns hotter than any other." Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="250" >
+      <Price locationtype="outpost" sold="false" multiplier="1" minavailable="2" />
+      <Price locationtype="city" sold="false" multiplier="0.9" minavailable="3" />
+      <Price locationtype="research" multiplier="1" minavailable="2" />
+      <Price locationtype="military" sold="false" multiplier="1" minavailable="2" />
+      <Price locationtype="mine" sold="false" multiplier="1" minavailable="2" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel"/>
+      <Item identifier="lead" />
+      <Item identifier="incendium" copycondition="true"/>
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15" >
+      <RequiredSkill identifier="electrical" level="75" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10" >
+      <RequiredSkill identifier="electrical" level="15" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendiumfuelrod" mincondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <InventoryIcon texture="Mods/NuclearChemistry/Items/CustomFuelRods/IncendiumRod.png" sourcerect="0,0,20,70" origin="0.5,0.5" />
+    <Sprite texture="Mods/NuclearChemistry/Items/CustomFuelRods/IncendiumRod.png" depth="0.55" sourcerect="0,0,20,70" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" >
+    </Holdable>
+    <ItemContainer hideitems="true" capacity="1" itemrotation="90" drawinventory="false" canbeselected="false" SpawnWithId="nucleargunbolt" removecontaineditemsondeconstruct="true" showcontainedstateindicator="false">
+      <Containable items="nucleargunbolt" />
+      <StatusEffect type="OnUse" target="This" condition="-25.0" disabledeltatime="true">
+        <SpawnItem identifiers="nucleargunbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
+  </Item>
+  
+  <Item name="Plutonium Fuel Rod" identifier="plutoniumfuelrod" description="Plutonium is normally used in weapons but can be used in a pinch." Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="250" >
+      <Price locationtype="outpost" sold="false" multiplier="1" minavailable="2" />
+      <Price locationtype="city" sold="false" multiplier="0.9" minavailable="3" />
+      <Price locationtype="research" sold="false" multiplier="1" minavailable="2" />
+      <Price locationtype="military" sold="false" multiplier="1" minavailable="2" />
+      <Price locationtype="mine" sold="false" multiplier="1" minavailable="2" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel"/>
+      <Item identifier="lead" />
+      <Item identifier="plutonium" copycondition="true"/>
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15" >
+      <RequiredSkill identifier="electrical" level="55" />
+      <RequiredItem identifier="plutonium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10" >
+      <RequiredSkill identifier="electrical" level="15" />
+      <RequiredItem identifier="plutonium" />
+      <RequiredItem identifier="plutoniumfuelrod" mincondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="452,1,19,68" />
+    <Body radius="6" height="55" density="20" />
+    <Holdable handle1="0,0" slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" >
+    </Holdable>
+    <ItemContainer hideitems="true" capacity="1" itemrotation="90" drawinventory="false" canbeselected="false" SpawnWithId="nucleargunbolt" removecontaineditemsondeconstruct="true" showcontainedstateindicator="false">
+      <Containable items="nucleargunbolt" />
+      <StatusEffect type="OnUse" target="This" condition="-20.0" disabledeltatime="true">
+        <SpawnItem identifiers="nucleargunbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
+  </Item>
+</Items>
